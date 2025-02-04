@@ -53,7 +53,7 @@ class _BookCard extends StatelessWidget {
           ),
           Text(
             book.title,
-            maxLines: 2,
+            maxLines: 1,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.center,
           )
